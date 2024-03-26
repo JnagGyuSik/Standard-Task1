@@ -10,7 +10,4 @@
         android:left="2.5dp"
         android:right="2.5dp"
         android:top="2.5dp" />
-
-
-
 </shape>

@@ -39,26 +39,23 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="20dp"
-        android:background="@drawable/tv_bg"
-        android:hint="Username , Email & Phone Number"
+        android:background="@drawable/shadou"
+        android:hint="Username , Email &amp; Phone Number"
         android:inputType="text"
-        android:paddingLeft="20dp"
+        android:paddingHorizontal="20dp"
         android:textColor="#5E5E5E"
-
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
-        android:elevation="4dp"/>
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
         android:layout_width="match_parent"
         android:layout_height="55dp"
-        android:layout_marginStart="20dp"
+        android:layout_marginHorizontal="20dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="20dp"
-        android:background="@drawable/tv_bg"
+        android:background="@drawable/shadou"
         android:hint="Password"
         android:inputType="textPassword"
         android:paddingLeft="20dp"
@@ -66,9 +63,7 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText"
-        android:elevation="4dp"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/editTextText" />
 
     <TextView
         android:id="@+id/textView6"
@@ -175,5 +170,5 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView5"
         app:layout_constraintTop_toTopOf="@+id/imageView5"
-        app:srcCompat="@drawable/apple_icon"/>
+        app:srcCompat="@drawable/apple_icon" />
 </androidx.constraintlayout.widget.ConstraintLayout>
